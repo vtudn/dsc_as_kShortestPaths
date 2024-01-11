@@ -9,12 +9,12 @@
 
 ***./<output_program> <input_configuration>***
 
-***e.g:***
+e.g:
 
-***g++ -o run Dijkstra.cpp Yen.cpp Graph.cpp main.cpp***
+g++ -o run Dijkstra.cpp Yen.cpp Graph.cpp main.cpp
 
-***./run input/input.cfg***
+./run input/input.cfg
 
 **[CHANGE INPUT]**
 
-***User can change the input configuration file at "input/input.cfg". Its format is "<start_point> <end_point>", which indicates the 2 points that we want to find top k shortest paths.***
+User can change the input configuration file at "input/input.cfg". Its format is "<start_point> <end_point>", which indicates the 2 points that we want to find top k shortest paths.
